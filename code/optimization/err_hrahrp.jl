@@ -1,7 +1,14 @@
 # Purpose: Solve the rental-houseing firm's optimization problem from the first order conditions
 
-# # global variables declariation
-global eta::Float64, theta::Float64, deltah::Float64, deltaa::Float64, psi_kr::Float64, r::Float64, alpha::Float64, Ah::Float64
+# global variables declariation
+global eta::Float64 
+global theta::Float64 
+global deltah::Float64
+global deltaa::Float64
+global psi_kr::Float64
+global r::Float64
+global alpha::Float64
+global Ah::Float64
 
 function err_hrahrp(ar::Float64, omega::Float64, rho::Float64, tfp::Float64)
     # need to pass tfp so that you can call same rtbis function
