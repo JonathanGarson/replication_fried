@@ -1,4 +1,4 @@
-# Purpose: Solve the rental-houseing firm's optimization problem from the first orderconditions
+# Purpose: Solve the rental-houseing firm's optimization problem from the first order conditions
 
 # # global variables declariation
 global eta::Float64, theta::Float64, deltah::Float64, deltaa::Float64, psi_kr::Float64, r::Float64, alpha::Float64, Ah::Float64
